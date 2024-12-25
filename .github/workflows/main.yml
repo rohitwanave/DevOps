@@ -16,6 +16,3 @@ jobs:
       - name: Run a simple script
         run: |
           echo "Code has been merged into the main branch!"
-          # You can add more commands here, for example:
-          # npm install
-          # npm run build
