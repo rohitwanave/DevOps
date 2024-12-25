@@ -3,7 +3,8 @@ name: Run on Merge to Main
 on:
   push:
     branches:
-      - main  # Trigger on push to the 'main' branch
+      - main
+  workflow_dispatch:  # Trigger on push to the 'main' branch
 
 jobs:
   run-on-merge:
